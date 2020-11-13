@@ -12,6 +12,7 @@ function valuechanged (data)
 
 function loadbang ()
 {
+    post("loadbang")
     this.bang();
 }
 
@@ -44,6 +45,4 @@ function bang ()
     }
     gc();
 }
-
-bang();
 
