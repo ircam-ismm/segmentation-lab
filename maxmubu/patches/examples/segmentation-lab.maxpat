@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 45.0, 2556.0, 1395.0 ],
+		"rect" : [ 0.0, 45.0, 2075.0, 1395.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -114,12 +114,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-429",
-					"linecount" : 12,
+					"linecount" : 11,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "float", "" ],
-					"patching_rect" : [ 1312.0, 1283.500023000000056, 101.0, 169.0 ],
+					"patching_rect" : [ 1312.0, 1283.500023000000056, 105.0, 156.0 ],
 					"text" : "pipo scale @scale.clip 0 @scale.minlog 0. @scale.outmax 81. @scale.base 2. @scale.outmin 69. @scale.inmax 880. @scale.inmin 440. @scale.func 1"
 				}
 
@@ -1994,7 +1994,7 @@
 					"patching_rect" : [ 1046.811401250000017, 62.058316365676887, 175.0, 66.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 996.622802500000034, 2.999977000000001, 231.0, 52.0 ],
+					"presentation_rect" : [ 996.622802500000034, 2.999977000000001, 216.0, 52.0 ],
 					"text" : "odf = current - median of last values (this is what onseg.threshold refers to)"
 				}
 
@@ -2327,7 +2327,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 3716.380093916252008, 933.150075623660996, 205.621171378684949, 22.0 ],
-					"text" : "onseg.threshold 1.54"
+					"text" : "onseg.mininter 100"
 				}
 
 			}
@@ -3869,7 +3869,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 189.0, 497.000019538604761, 208.0, 22.0 ],
-									"text" : "view yin-markers visible 1"
+									"text" : "view loudness-odf visible 1"
 								}
 
 							}
@@ -3963,7 +3963,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 224.0, 100.0, 50.0, 22.0 ],
-									"text" : "4 1 1"
+									"text" : "3 0 1"
 								}
 
 							}
@@ -4832,7 +4832,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 534.333338141441345, 454.499968999999965, 394.0, 22.0 ],
-					"text" : "mouse exit 237.885191 0.633487"
+					"text" : "mouse exit 3749.863946 -15.978675"
 				}
 
 			}
@@ -7098,8 +7098,8 @@
 						"valueof" : 						{
 							"parameter_linknames" : 1,
 							"parameter_longname" : "out",
-							"parameter_mmax" : 6.0,
-							"parameter_mmin" : -70.0,
+							"parameter_mmax" : 18.0,
+							"parameter_mmin" : -30.0,
 							"parameter_shortname" : "out",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -7484,7 +7484,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -8930,12 +8929,12 @@
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_followmouse" : 0,
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 3092.507481674840619,
+					"cursor_position" : 1518.379579516153171,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
 					"cursor_visible" : 0,
-					"domain_bounds" : [ 0.0, 4423.378684807255922 ],
+					"domain_bounds" : [ 0.0, 3749.863945578231323 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -9019,8 +9018,8 @@
 					"angle" : 270.0,
 					"background" : 1,
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"border" : 5,
-					"bordercolor" : [ 1.0, 1.0, 0.0, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-124",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -9057,8 +9056,8 @@
 					"angle" : 270.0,
 					"background" : 1,
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"border" : 5,
+					"bordercolor" : [ 1.0, 1.0, 0.0, 1.0 ],
 					"id" : "obj-27",
 					"maxclass" : "panel",
 					"mode" : 0,
