@@ -4,7 +4,7 @@ function valuechanged (data)
 {
     if (data.attrname)
     {
-        post(data.attrname, data.value, "\n");
+        //post(data.attrname, data.value, "\n");
 	outlet(0, data.attrname, data.value);
     }
 }
@@ -12,7 +12,7 @@ function valuechanged (data)
 
 function loadbang ()
 {
-    post("loadbang")
+    //post("loadbang")
     this.bang();
 }
 
@@ -31,10 +31,10 @@ function bang ()
     else
 	listento = jsarguments.slice(2);
 
-    post("objname: ", jsarguments[1], "\n");
-    post("object: ", ob.maxclass, "\n");
-    post("attributes: ", obattrs, "\n");
-    post("listen to: ", listento, "\n");
+    //post("objname: ", jsarguments[1], "\n");
+    //post("object: ", ob.maxclass, "\n");
+    //post("attributes: ", obattrs, "\n");
+    //post("listen to: ", listento, "\n");
 
     for (var i = 0; i < listento.length; i++)
     {
