@@ -1,0 +1,3 @@
+*.pd linguist-detectable=true
+*.wav linguist-detectable=true linguist-language=Wave
+*.aiff linguist-detectable=true linguist-language=AIFF
