@@ -4,7 +4,7 @@ The Max patch [segmentation-lab.maxpat](https://git.forum.ircam.fr/schwarz/segme
 - the onset detection function (odf) on which the detection threshold works
 - the resulting segment markers
 
-![screenshot](https://discussion.forum.ircam.fr/uploads/default/optimized/2X/6/6fd77aad4eb94cb710d85ac2830cface90b24be6_2_689x497.png)
+![screenshot](https://discussion.forum.ircam.fr/uploads/default/original/2X/6/6fd77aad4eb94cb710d85ac2830cface90b24be6.png)
 
 This patch started out of a [topic in the mubu discussion forum](https://discussion.forum.ircam.fr/t/onset-detection-based-on-mel-flux/22772/22) by Notto Thielle (@sirnotto) and a patch by Christopher Trapani (@ctrapani).
 
