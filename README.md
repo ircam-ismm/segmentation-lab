@@ -1,4 +1,4 @@
-The Max patch [segmentation-lab.maxpat](https://git.forum.ircam.fr/schwarz/segmentation-lab/-/raw/master/segmentation-lab.maxpat) allows to run 4 [pipo](https://ismm.ircam.fr/pipo/)-based segmenters (`onseg`, `yin`, spectral flux based on `fft:bands:delta` and `mfcc:delta`), and look at the data in various processing steps:
+The Max patch [segmentation-lab.maxpat](./segmentation-lab.maxpat) allows to run 4 [pipo](https://ismm.ircam.fr/pipo/)-based segmenters (`onseg`, `yin`, spectral flux based on `fft:bands:delta` and `mfcc:delta`), and look at the data in various processing steps:
 - raw input data
 - processed/selected input data
 - the onset detection function (odf) on which the detection threshold works
