@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 768.0, 268.0, 1314.0, 870.0 ],
+		"openrect" : [ 0.0, 45.0, 1407.0, 862.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -26,12 +26,12 @@
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
 		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 15,
+		"toolbars_unpinned_last_save" : 3,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
+		"devicewidth" : 1407.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
@@ -40,16 +40,17 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"attr" : "yin.qualitygate",
+					"attr" : "yin.periodicitygate",
 					"id" : "obj-423",
 					"maxclass" : "attrui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2645.0, 921.250016136814111, 150.0, 22.0 ],
+					"patching_rect" : [ 2645.0, 921.250016136814111, 158.5, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 574.0, 468.199989999999957, 150.0, 22.0 ]
+					"presentation_rect" : [ 574.0, 468.199989999999957, 184.0, 22.0 ],
+					"text_width" : 131.0
 				}
 
 			}
@@ -96,11 +97,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-442",
-					"linecount" : 29,
+					"linecount" : 25,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1191.811401250000017, 267.0, 61.0, 395.0 ],
+					"patching_rect" : [ 1191.811401250000017, 267.0, 69.0, 342.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
 					"presentation_rect" : [ 1021.811401250000017, 15.999977000000001, 287.0, 87.0 ],
@@ -424,8 +425,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -756,8 +757,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2815,8 +2816,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3894,8 +3895,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4383,8 +4384,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4980,7 +4981,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 754.0, 454.499968999999965, 394.0, 22.0 ],
-					"text" : "mouse exit 1.078491 0.911215"
+					"text" : "mouse exit -1.379465 1.953271"
 				}
 
 			}
@@ -7336,8 +7337,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7618,8 +7619,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7721,8 +7722,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -9101,6 +9102,7 @@
 					"bufferchooser_shape" : "buttons",
 					"bufferchooser_size" : 12,
 					"bufferchooser_visible" : 1,
+					"continousediting" : 0,
 					"cursor_circleedgecolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_circlefillcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_circlefilled" : 1,
@@ -9132,6 +9134,7 @@
 					"freeze" : 0,
 					"id" : "obj-20",
 					"layout" : 0,
+					"maintrack" : -1,
 					"maxclass" : "imubu",
 					"mousewheelscroll" : 0,
 					"name" : "seg.buffer",
@@ -12185,10 +12188,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "attrchanged.js",
-				"bootpath" : "~/projects/mubu-and-co/maxmubu/patches/examples/segmentation-lab",
+				"bootpath" : "~/src/mubu-and-co/maxmubu/patches/examples/segmentation-lab",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "imubu.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "mubu.concat~.mxo",
@@ -12196,6 +12203,18 @@
 			}
 , 			{
 				"name" : "mubu.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mubu.play~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mubu.process.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mubu.track.mxo",
 				"type" : "iLaX"
 			}
 , 			{
