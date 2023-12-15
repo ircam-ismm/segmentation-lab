@@ -1,4 +1,10 @@
-// listen to change in obj of given list of attrs
+// listen to change in obj of given list of attrs or all attrs
+//
+// Usage:
+//   js attrchanged <obj-scripting-name> [<attrnames...>]
+//
+// Output: 
+//   sends <attrname> <value> on left outlet when attr changes
 
 function valuechanged (data)
 {
